@@ -48,6 +48,6 @@ function secondPart(file) {
 
 (function main() {
   const file = read("input_1.txt");
-  //console.log(firstPart(file));
+  console.log(firstPart(file));
   console.log(secondPart(file));
 })();
