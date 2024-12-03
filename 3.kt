@@ -16,7 +16,7 @@ fun secondPart(text: String): Long{
   val matches = regex.findAll(text)
   var isEnabled = true
   return matches.fold(0L){acc: Long, match ->
-    val value: String = match.value
+    val value = match.value
     when(value){
       "don't()" -> {
         isEnabled = false
